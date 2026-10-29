@@ -1,0 +1,405 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9ff;
+    color: #252746;
+    line-height: 1.6;
+}
+
+header {
+    background: white;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    box-shadow: 0 2px 10px #0000000d;
+}
+
+.logo {
+    color: #6256e8;
+    font-size: 28px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #454862;
+    padding: 8px 10px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #6256e8;
+    background: #f0efff;
+}
+
+.hero {
+    padding: 65px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    background: linear-gradient(120deg, #f0efff, #f4f8ff);
+}
+
+.hero > div:first-child {
+    max-width: 620px;
+}
+
+.tagline {
+    color: #6256e8;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.hero h1 {
+    font-size: clamp(34px, 5vw, 54px);
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #6256e8;
+}
+
+.hero p {
+    margin-bottom: 22px;
+}
+
+.hero-image {
+    font-size: 130px;
+    background: #dedbff;
+    padding: 35px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background: #6256e8;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #4d42c9;
+}
+
+.section {
+    padding: 55px 8%;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    color: #737991;
+    margin: 10px 0 25px;
+}
+
+.course-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    margin-top: 25px;
+}
+
+.course-card {
+    background: white;
+    border: 1px solid #e5e7f2;
+    padding: 22px;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px #20204008;
+    transition: transform 0.2s;
+}
+
+.course-card:hover {
+    transform: translateY(-4px);
+}
+
+.course-card h3 {
+    margin: 15px 0 8px;
+}
+
+.course-card p {
+    color: #69718a;
+    margin-bottom: 12px;
+}
+
+.course-icon {
+    height: 115px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+.blue {
+    background: #e9f2ff;
+}
+
+.purple {
+    background: #efebff;
+}
+
+.green {
+    background: #e4f8ef;
+}
+
+.orange {
+    background: #fff0e1;
+}
+
+.pink {
+    background: #ffedf4;
+}
+
+.yellow {
+    background: #fff7d8;
+}
+
+.text-link {
+    color: #6256e8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.cta {
+    background: #efedff;
+    margin: 0 8% 55px;
+    padding: 35px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.cta p {
+    margin: 12px 0 20px;
+}
+
+footer {
+    background: #222441;
+    color: white;
+    padding: 22px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.page-heading {
+    text-align: center;
+    padding: 55px 8%;
+    background: #f0efff;
+}
+
+.page-heading h1 {
+    font-size: clamp(30px, 4vw, 42px);
+    margin-bottom: 10px;
+}
+
+.page-heading p {
+    color: #69718a;
+}
+
+.search-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    border: 1px solid #dfe2ee;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.instructor-card {
+    text-align: center;
+}
+
+.instructor-icon {
+    background: #efebff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    font-size: 48px;
+}
+
+.progress-card {
+    background: white;
+    padding: 22px;
+    margin: 20px 0;
+    border-radius: 12px;
+    border: 1px solid #e5e7f2;
+}
+
+.progress-track {
+    height: 10px;
+    background: #e8e8f2;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 15px 0 8px;
+}
+
+.progress-fill {
+    height: 100%;
+    background: #6256e8;
+    border-radius: 10px;
+}
+
+.purple-fill {
+    background: #9869e8;
+}
+
+.green-fill {
+    background: #24a779;
+}
+
+.progress-card .btn {
+    margin-top: 10px;
+}
+
+.lesson-list {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e5e7f2;
+    margin-top: 30px;
+}
+
+.lesson-list p {
+    padding: 7px 0;
+    color: #555d76;
+}
+
+.about-content h2 {
+    margin-top: 25px;
+}
+
+.about-content p {
+    color: #626a83;
+    margin-bottom: 15px;
+}
+
+.feature-list {
+    margin: 20px 0;
+}
+
+.contact-box {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 5px 25px #2020400d;
+}
+
+.contact-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-box label {
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.contact-box input,
+.contact-box select,
+.contact-box textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dfe2ee;
+    border-radius: 7px;
+    font: inherit;
+}
+
+.contact-box input:focus,
+.contact-box select:focus,
+.contact-box textarea:focus {
+    outline: 2px solid #d9d5ff;
+    border-color: #6256e8;
+}
+
+.success-message {
+    color: #16815e;
+    font-size: 14px;
+}
+
+@media (max-width: 850px) {
+    .hero {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-image {
+        align-self: center;
+    }
+
+    .course-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 560px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        justify-content: flex-start;
+    }
+
+    .hero {
+        padding: 40px 6%;
+    }
+
+    .hero-image {
+        font-size: 80px;
+        padding: 25px;
+    }
+
+    .section {
+        padding: 40px 6%;
+    }
+
+    .course-container {
+        grid-template-columns: 1fr;
+    }
+
+    .cta {
+        margin: 0 6% 40px;
+        padding: 25px;
+    }
+
+    .contact-box {
+        padding: 20px;
+    }
+}

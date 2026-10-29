@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - LearnHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2 class="logo">LearnHub</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="instructors.html">Instructors</a>
+        <a href="learning.html">My Learning</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="page-heading">
+    <h1>Explore Our Courses</h1>
+    <p>Choose your favourite subject and develop new skills.</p>
+</section>
+
+<section class="section">
+    <input type="search" id="courseSearch"
+           class="search-box" placeholder="Search courses...">
+
+    <div class="course-container" id="courseContainer">
+
+        <div class="course-card searchable">
+            <div class="course-icon blue">🐍</div>
+            <h3>Python Programming</h3>
+            <p>Learn variables, data types, conditions, loops and functions.</p>
+            <p><strong>Level:</strong> Beginner</p>
+            <p><strong>Lessons:</strong> 12</p>
+            <a href="learning.html" class="btn">Start Learning</a>
+        </div>
+
+        <div class="course-card searchable">
+            <div class="course-icon purple">🌐</div>
+            <h3>HTML and CSS</h3>
+            <p>Build attractive websites using HTML and CSS.</p>
+            <p><strong>Level:</strong> Beginner</p>
+            <p><strong>Lessons:</strong> 10</p>
+            <a href="learning.html" class="btn">Start Learning</a>
+        </div>
+
+        <div class="course-card searchable">
+            <div class="course-icon green">🤖</div>
+            <h3>Introduction to AI</h3>
+            <p>Understand artificial intelligence and machine learning.</p>
+            <p><strong>Level:</strong> Beginner</p>
+            <p><strong>Lessons:</strong> 8</p>
+            <a href="learning.html" class="btn">Start Learning</a>
+        </div>
+
+        <div class="course-card searchable">
+            <div class="course-icon orange">📊</div>
+            <h3>Data Analysis</h3>
+            <p>Learn to organize data and understand basic charts.</p>
+            <p><strong>Level:</strong> Beginner</p>
+            <p><strong>Lessons:</strong> 9</p>
+            <a href="learning.html" class="btn">Start Learning</a>
+        </div>
+
+        <div class="course-card searchable">
+            <div class="course-icon pink">🎨</div>
+            <h3>Graphic Design</h3>
+            <p>Explore colours, layouts and visual design principles.</p>
+            <p><strong>Level:</strong> Beginner</p>
+            <p><strong>Lessons:</strong> 7</p>
+            <a href="learning.html" class="btn">Start Learning</a>
+        </div>
+
+        <div class="course-card searchable">
+            <div class="course-icon yellow">🗣️</div>
+            <h3>Communication Skills</h3>
+            <p>Improve speaking, listening and presentation skills.</p>
+            <p><strong>Level:</strong> Beginner</p>
+            <p><strong>Lessons:</strong> 6</p>
+            <a href="learning.html" class="btn">Start Learning</a>
+        </div>
+
+    </div>
+    <p id="noResults" hidden>No matching courses found.</p>
+</section>
+
+<footer>
+    <p>© 2026 LearnHub | Online Learning Platform</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
